@@ -1,0 +1,21 @@
+{
+  "name": "car-book-platform",
+  "version": "1.0.0",
+  "description": "车书知识库管理平台",
+  "main": "server.js",
+  "bin": "server.js",
+  "pkg": {
+    "assets": [
+      "index.html",
+      "styles.css",
+      "app.js"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}

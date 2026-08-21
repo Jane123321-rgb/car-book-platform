@@ -1,0 +1,18 @@
+车书知识库管理平台 - 使用说明
+
+一、环境要求
+  - 安装 Node.js（下载地址：https://nodejs.org，选择 LTS 版本即可）
+
+二、启动方式
+  Windows：双击 start.bat
+  Mac/Linux：终端执行 bash start.sh
+
+三、使用步骤
+  1. 启动后浏览器访问 http://localhost:8081
+  2. 进入「生成知识库」模块，点击右上角「模型配置」
+  3. 填入 DeepSeek API Key（注册地址：https://platform.deepseek.com/api_keys）
+  4. 在「车书上传」上传车书文件后，即可在「生成知识库」中生成知识库
+
+四、数据存储
+  所有数据保存在浏览器本地存储中，清除浏览器数据会丢失。
+  生成的知识库内容由 AI 模型实时生成。
