@@ -4,7 +4,7 @@ const path = require('path');
 const https = require('https');
 const { exec } = require('child_process');
 
-const PORT = 8081;
+const PORT = process.env.PORT || 8081;
 // pkg 打包后 __dirname 指向虚拟文件系统，需要改用 exe 所在目录
 const ROOT_DIR = path.dirname(process.execPath);
 const MIME = {

@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "车书知识库管理平台",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "bin": "server.js",
   "pkg": {
     "assets": [
